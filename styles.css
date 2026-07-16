@@ -197,11 +197,12 @@ p {
 .hero-background{
     position:absolute;
     inset:0;
-    background-image:url("assets/images/BLACK DOG TO HOME.jpg");
+    background-image:url("assets/images/black-dog-home.jpg");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
     z-index:0;
+}
 }
 
 .hero-overlay{
