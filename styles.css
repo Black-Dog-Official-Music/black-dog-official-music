@@ -184,59 +184,43 @@ p {
    HERO SECTION
    ============================================ */
 
-.hero {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    margin-top: 60px;
+.hero{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    margin-top:60px;
 }
 
-.hero-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #1a1f3a 0%, #0a0e27 50%, #001a4d 100%);
-    z-index: -2;
+.hero-background{
+    position:absolute;
+    inset:0;
+    background-image:url("assets/images/BLACK DOG TO HOME.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    z-index:0;
 }
 
-.hero-background::before {
-    content: '';
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    background: radial-gradient(circle, rgba(0, 120, 212, 0.1) 1px, transparent 1px);
-    background-size: 50px 50px;
-    animation: moveBackground 20s linear infinite;
-    z-index: -1;
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:linear-gradient(
+        rgba(0,0,0,.25),
+        rgba(0,0,0,.65)
+    );
+    z-index:1;
 }
 
-@keyframes moveBackground {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(50px, 50px); }
+.hero-content{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    max-width:1000px;
+    padding:var(--spacing-lg);
 }
-
-.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: -1;
-}
-
-.hero-content {
-    text-align: center;
-    z-index: 10;
-    max-width: 1000px;
-    padding: var(--spacing-lg);
 }
 
 .hero-title {
