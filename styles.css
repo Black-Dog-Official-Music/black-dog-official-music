@@ -165,16 +165,12 @@ p{
 
 
 
-.hero-overlay{
-
+..hero-overlay{
     position:absolute;
-
     inset:0;
-
-    background:
-linear-gradient(
-rgba(0,0,0,.20),
-rgba(0,0,0,.50)
+    background:rgba(0,0,0,0.35);
+    z-index:1;
+}
 );
     );
 
@@ -256,7 +252,7 @@ rgba(0,0,0,.50)
 
     padding:2rem;
 
-    background:rgba(26,31,58,.40);
+    background:rgba(26,31,58,.35);
 
     backdrop-filter:blur(10px);
 
