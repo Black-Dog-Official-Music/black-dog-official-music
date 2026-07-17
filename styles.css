@@ -933,7 +933,32 @@ section{
 /* ============================================
  MOBILE RESPONSIVE
 ============================================ */
+/* CORREZIONE TESTI HERO - ALTA LEGGIBILITÀ */
 
+.hero-title {
+    color: #ffffff;
+}
+
+.hero-subtitle {
+    color: #ffffff;
+}
+
+.single-info h2 {
+    color: #ffffff;
+}
+
+.single-info p {
+    color: #ffffff;
+}
+
+.single-info {
+    color: #ffffff;
+}
+
+.featured-single,
+.single-content {
+    color: #ffffff;
+}
 
 @media(max-width:768px){
 
