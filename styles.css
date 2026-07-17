@@ -1021,7 +1021,19 @@ section{
 }
 
 
+/* FIX DEFINITIVO COLORI HERO */
 
+.hero h1.hero-title {
+    color: #ffffff !important;
+}
+
+.hero .single-info h2 {
+    color: #ffffff !important;
+}
+
+.hero .single-info p {
+    color: #ffffff !important;
+}
 @media(max-width:480px){
 
 
