@@ -1040,6 +1040,26 @@ section{
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
 }
+/* FIX COLORI FOOTER E SOCIAL */
+
+.social-links h3 {
+    color: #ffffff !important;
+}
+
+.social-btn {
+    color: #ffffff !important;
+    border-color: #ffffff;
+    background: rgba(0,120,212,0.25);
+}
+
+.social-btn:hover {
+    background: #0078d4;
+    color: #ffffff !important;
+}
+
+.footer p {
+    color: #ffffff !important;
+}
 @media(max-width:480px){
 
 
