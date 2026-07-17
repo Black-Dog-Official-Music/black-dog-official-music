@@ -1034,6 +1034,12 @@ section{
 .hero .single-info p {
     color: #ffffff !important;
 }
+/* FIX TITOLO PRINCIPALE HERO */
+
+.hero-title {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
 @media(max-width:480px){
 
 
