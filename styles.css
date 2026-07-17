@@ -151,33 +151,34 @@ p{
 
     inset:0;
 
-    background-image:url("risorse/immagini/black-dog-home.jpg");;
-
-    background-size:cover;
-
-    background-position:center;
-
-    background-repeat:no-repeat;
+    background:
+    linear-gradient(
+        135deg,
+        #0a0e27,
+        #1a1f3a
+    );
 
     z-index:0;
 
 }
 
 
-
-..hero-overlay{
+.hero-overlay{
     position:absolute;
     inset:0;
     background:rgba(0,0,0,0.35);
     z-index:1;
-}
-);
-    );
+}.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,0.35);
 
     z-index:1;
 
 }
-
 
 
 .hero-content{
